@@ -31,7 +31,7 @@
                         <div class="form-group">
                             <div class="col-sm-offset-3 col-sm-6">
                                 <button type="submit" class="btn btn-default">
-                                    <i class="fa fa-btn fa-plus"></i>Domeinnaam zoeken
+                                    <i class="fa fa-btn fa-search"></i>Domeinnaam zoeken
                                 </button>
                             </div>
                         </div>
