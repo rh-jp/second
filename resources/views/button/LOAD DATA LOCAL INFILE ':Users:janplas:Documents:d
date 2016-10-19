@@ -1,0 +1,1 @@
+LOAD DATA LOCAL INFILE '/Users/janplas/Documents/dev/quickstart/domains/data.csv' INTO TABLE vps FIELDS TERMINATED BY ',' LINES TERMINATED BY '\n' SET id=null;
