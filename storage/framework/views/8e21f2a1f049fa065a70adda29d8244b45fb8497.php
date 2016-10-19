@@ -14,24 +14,31 @@
                     <form action="" method="POST" class="form-horizontal">
 
                         <!-- domain Name -->
-                        <div class="form-group">
-                            <label for="domain-name" class="col-sm-3 control-label">Domein:</label>
 
-                            <div class="col-sm-6">
-                                <input type="text" name="q" id="domain-name" class="form-control" value="">
-                            </div>
+                
+
+                        <div class="input-group">
+                        <div class="input-group-btn search-panel">
+                            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                                <span id="search_concept">www.</span> <span class="caret" style="margin-left: 5px;"></span>
+                            </button>
+                            <ul class="dropdown-menu" role="menu">
+                              <li><a href="#contains">Contains</a></li>
+                              <li><a href="#its_equal">It's equal</a></li>
+                              <li><a href="#greather_than">Greather than ></a></li>
+                              <li><a href="#less_than">Less than < </a></li>
+                              <li class="divider"></li>
+                              <li><a href="#all">Anything</a></li>
+                            </ul>
                         </div>
+                        <input type="hidden" name="search_param" value="all" id="search_param">         
+                        <input type="text" class="form-control" name="q" placeholder="Zoek domeinnaam...">
+                        <span class="input-group-btn">
+                            <button class="btn btn-default" type="submit"><span class="glyphicon glyphicon-search"></span></button>
+                        </span>
+                    </div>
 
-                       
-
-                        <!-- Add domain Button -->
-                        <div class="form-group">
-                            <div class="col-sm-offset-3 col-sm-6">
-                                <button type="submit" class="btn btn-default">
-                                    <i class="fa fa-btn fa-plus"></i>Domeinnaam zoeken
-                                </button>
-                            </div>
-                        </div>
+                    
                     </form>
                     <div class="">
                     <?php if(isset($details)): ?>
