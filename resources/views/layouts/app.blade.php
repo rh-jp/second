@@ -35,6 +35,7 @@
         .panel-default>.panel-heading {
                 background-color: rgba(100,17,122,.7);
                 color: white;
+                
         }
     </style>
 </head>
