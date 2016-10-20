@@ -32,6 +32,11 @@
                 margin: -12px;
                 width: 85%;
         }
+        .panel-default>.panel-heading {
+                background-color: rgba(100,17,122,.7);
+                color: white;
+
+        }
     </style>
 </head>
 <body id="app-layout">

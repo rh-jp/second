@@ -7,7 +7,7 @@
 
             <div class="panel panel-default">
                 <div class="panel-heading">
-                    Controleer of uw domeinnaam binnenkort wordt gemigreerd
+                    Controleer of uw website binnenkort wordt gemigreerd
                 </div>
 
                 <div class="panel-body">

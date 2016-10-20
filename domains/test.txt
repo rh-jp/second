@@ -1,6 +1,0 @@
-id,name,note,status,created_at,updated_at
-1,helloworld.nl,hello world,completed,2016-08-12 12:30:46,2016-08-12 12:30:46
-2,thisisrealhosting.nl,Migreren naar 21005,completed,2016-08-12 12:30:46,2016-08-12 12:30:46
-3,Jeff,Hello World,completed,2016-08-12 12:30:46,2016-08-12 12:30:46
-4,Pim,hello world,completed,2016-08-12 12:30:46,2016-08-12 12:30:46
-5,jan,hello world,completed,2016-08-12 12:30:46,2016-08-12 12:30:46
