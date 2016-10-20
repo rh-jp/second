@@ -73,7 +73,7 @@ Route::get ( '/', function () {
 } );
 Route::post ( '/', function () {
     $q = Input::get ( 'q' );
-    $user = Migratie::where ( 'domain', 'LIKE', '%' . $q . '%' )->orWhere ( 'opmerking', 'LIKE', '%' . $q . '%' )->join('status', 'migraties.id_status', '=', 'status.id')->paginate (1)->setPath ( '' );
+    $user = Migratie::where ( 'domain',  $q  )->join('status', 'migraties.id_status', '=', 'status.id')->paginate (1)->setPath ( '' );
     if (count ( $user ) > 0)
         return view ( 'domeincheck' )->withDetails ( $user )->withQuery ( $q );
     else
