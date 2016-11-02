@@ -73,6 +73,8 @@ Route::get ( '/', function () {
 } );
 Route::post ( '/', function () {
     $q = Input::get ( 'q' );
+    $q = str_replace(['www.', 'http://', 'https://'], '', trim($q));
+
     $user = Migratie::where ( 'domain',  $q  )->join('status', 'migraties.id_status', '=', 'status.id')->paginate (1)->setPath ( '' );
     if (count ( $user ) > 0)
         return view ( 'domeincheck' )->withDetails ( $user )->withQuery ( $q );
@@ -80,17 +82,7 @@ Route::post ( '/', function () {
         return view ( 'domeincheck' )->withMessage ( 'Geen resultaten gevonden. Probeer opnieuw te zoeken !' );
 } );
 
-
-// Route::post ( '/search', function () {
-//     $q = Input::get ( 'q' );
-//     $user = User::where ( 'name', 'LIKE', '%' . $q . '%' )->orWhere ( 'email', 'LIKE', '%' . $q . '%' )->get ();
-//     if (count ( $user ) > 0)
-//         return view ( 'welcome' )->withDetails ( $user )->withQuery ( $q );
-//     else
-//         return view ( 'welcome' )->withMessage ( 'No Details found. Try to search again !' );
-// } );
-
-
+Route::pattern('/', 'http://');
 
 
 Route::get('/test', 'indexController@readItems');
