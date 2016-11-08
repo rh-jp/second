@@ -6,10 +6,24 @@
 
         <div class="col-sm-offset-2 col-sm-8">
         <div class="panel panel-heading" style="background: rgba(146, 88, 162, 0.78); color: white;">
-            <strong>Let op! Private Servers staan niet vermeldt in deze lijst</strong>
+            <strong>Opmerking:</strong>
             
             <div class="text" style="padding-top : 10px; font-weight: 200;">
-            <p>In deze lijst kun je controleren of de website die gehost wordt door Realhosting, binnenkort gemigreerd wordt naar een nieuwe server omgeving. Het is van belang om de domeinnaam correct in te vullen. <br> <br> Indien de door jou ingevulde domeinnaam niet gevonden wordt,  wordt je website niet gemigreerd. <br> Hou er rekening mee dat Private Servers niet in dit overzicht staan. <br><br> Mocht je onverhoopt toch nog vragen hebben dan kun je contact op nemen met de  <a style="color:white;" href="mailto:servicedesk@realhosting.nl"><strong>servicedesk@realhosting.nl</strong></a></p>
+            <p>
+            Vul hieronder je domeinnaam in om te bekijken of jouw website binnenkort wordt omgezet naar onze nieuwste hosting. Voor meer informatie bezoek je <a style="color:white;" target="_blank" href="https://realhosting.nl/2016/10/verbeteringen-aan-onze-hosting/">https://realhosting.nl/2016/10/verbeteringen-aan-onze-hosting/</a></p>
+            <p>
+            Let op:
+
+            <ul>
+            <li>
+            Als je een eigen server (private cloud) hebt, komt je website niet in het overzicht. We nemen dan contact met je op als dat nodig is. Nemen we geen contact op, dan wordt jouw server niet omgezet op kort termijn.
+            </li>
+            <li> Komt jouw website niet voor, dan wordt jouw website niet omgezet op kort termijn</li>
+            </ul>
+                
+            </p>
+            <p>Bij vragen neem je contact op met <a style="color:white;" href="mailto:servicedesk@realhosting.nl">servicedesk@realhosting.nl</a></p>
+            
             </div>
         </div>
         </div>
