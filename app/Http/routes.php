@@ -79,7 +79,7 @@ Route::post ( '/', function () {
     if (count ( $user ) > 0)
         return view ( 'domeincheck' )->withDetails ( $user )->withQuery ( $q );
     else
-        return view ( 'domeincheck' )->withMessage ( 'Geen resultaten gevonden. Probeer opnieuw te zoeken !' );
+        return view ( 'domeincheck' )->withMessage ( 'De website is niet gevonden voor een ingeplande migratie.');
 } );
 
 Route::pattern('/', 'http://');

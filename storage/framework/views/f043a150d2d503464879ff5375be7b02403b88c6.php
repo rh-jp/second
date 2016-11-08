@@ -53,11 +53,10 @@
                                     <img src="https://realhosting.nl/wp-content/themes/realhosting/assets/img/logo.png">
 
                 </a>
-
-
             </div>
 
         </div>
+
     </nav>
 
     <?php echo $__env->yieldContent('content'); ?>
